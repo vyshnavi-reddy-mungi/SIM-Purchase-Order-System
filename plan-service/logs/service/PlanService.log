@@ -1,0 +1,5 @@
+2025-05-08 16:15:50.538 [main] INFO  c.c.t.o.service.PlanService - planService:getPlan - request  67d9eaea02dcae70b2f65b91 
+2025-05-08 16:15:50.630 [main] INFO  c.c.t.o.service.PlanService - planService:createPlan - request  PlanDTO(id=null, planName=Basic Plan, dataPrice=29.99, internetPrice=19.99, planType=DATA, planPeriod=MONTHLY, recurring=true) 
+2025-05-08 16:15:50.646 [main] INFO  c.c.t.o.service.PlanService - planService:createPlan - plan created 
+2025-05-08 16:15:50.662 [main] INFO  c.c.t.o.service.PlanService - planService:getPlan - request  67d9eaea02dcae70b2f65b91 
+2025-05-08 16:15:50.663 [main] INFO  c.c.t.o.service.PlanService - Plan info, Plan(id=67d9eaea02dcae70b2f65b91, planName=Basic Plan, dataPrice=29.99, internetPrice=19.99, planType=DATA, planPeriod=MONTHLY, recurring=true) 

@@ -1,0 +1,63 @@
+<configuration>
+
+    <appender name = "myConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{yy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+            </pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="customerControllerAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/controller/CustomerController.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/controller/CustomerController-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="customerServiceAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/service/CustomerService.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/service/CustomerService-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="applicationExceptionalHandler" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/advice/ApplicationExceptionalHandler.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/advice/ApplicationExceptionalHandler-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.capgemini.telecom.ordersystem.controller" level="DEBUG" additivity="false">
+        <appender-ref ref="customerControllerAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.service" level="DEBUG" additivity="false">
+        <appender-ref ref="customerServiceAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.advice" level="DEBUG" additivity="false">
+        <appender-ref ref="applicationExceptionalHandler" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="myConsoleAppender" />
+    </root>
+
+
+</configuration>

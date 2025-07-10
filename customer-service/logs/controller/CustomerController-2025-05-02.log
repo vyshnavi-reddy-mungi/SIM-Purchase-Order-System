@@ -1,0 +1,32 @@
+2025-04-29 11:45:46.524 [main] INFO  c.c.t.o.c.CustomerController - customerController:registerCustomer - register customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 11:45:46.583 [main] INFO  c.c.t.o.c.CustomerController - customerController:deleteCustomer - delete customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 11:45:46.596 [main] INFO  c.c.t.o.c.CustomerController - customerController:updateCustomer - update customer, CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 11:45:46.607 [main] INFO  c.c.t.o.c.CustomerController - customerController:getCustomer - get customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 11:45:46.613 [main] INFO  c.c.t.o.c.CustomerController - customerController:createCustomer - request  CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 11:45:46.620 [main] INFO  c.c.t.o.c.CustomerController - customerController:verifyCustomer - verify customer- 67ddf68a08ed9b12f30bcf9a 
+2025-04-29 11:45:46.628 [main] INFO  c.c.t.o.c.CustomerController - customerController:activateCustomer - activate customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 11:45:46.633 [main] INFO  c.c.t.o.c.CustomerController - customerController:getAllCustomers - retrieving all customer 
+2025-04-29 12:08:34.845 [main] INFO  c.c.t.o.c.CustomerController - customerController:registerCustomer - register customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 12:08:34.897 [main] INFO  c.c.t.o.c.CustomerController - customerController:deleteCustomer - delete customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 12:08:34.913 [main] INFO  c.c.t.o.c.CustomerController - customerController:updateCustomer - update customer, CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 12:08:34.927 [main] INFO  c.c.t.o.c.CustomerController - customerController:getCustomer - get customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 12:08:34.931 [main] INFO  c.c.t.o.c.CustomerController - customerController:createCustomer - request  CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 12:08:34.937 [main] INFO  c.c.t.o.c.CustomerController - customerController:verifyCustomer - verify customer- 67ddf68a08ed9b12f30bcf9a 
+2025-04-29 12:08:34.943 [main] INFO  c.c.t.o.c.CustomerController - customerController:activateCustomer - activate customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 12:08:34.949 [main] INFO  c.c.t.o.c.CustomerController - customerController:getAllCustomers - retrieving all customer 
+2025-04-29 13:03:43.630 [main] INFO  c.c.t.o.c.CustomerController - customerController:registerCustomer - register customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:03:43.713 [main] INFO  c.c.t.o.c.CustomerController - customerController:deleteCustomer - delete customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:03:43.731 [main] INFO  c.c.t.o.c.CustomerController - customerController:updateCustomer - update customer, CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 13:03:43.747 [main] INFO  c.c.t.o.c.CustomerController - customerController:getCustomer - get customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:03:43.754 [main] INFO  c.c.t.o.c.CustomerController - customerController:createCustomer - request  CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 13:03:43.764 [main] INFO  c.c.t.o.c.CustomerController - customerController:verifyCustomer - verify customer- 67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:03:43.776 [main] INFO  c.c.t.o.c.CustomerController - customerController:activateCustomer - activate customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:03:43.783 [main] INFO  c.c.t.o.c.CustomerController - customerController:getAllCustomers - retrieving all customer 
+2025-04-29 13:39:21.808 [main] INFO  c.c.t.o.c.CustomerController - customerController:registerCustomer - register customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:39:21.892 [main] INFO  c.c.t.o.c.CustomerController - customerController:deleteCustomer - delete customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:39:21.909 [main] INFO  c.c.t.o.c.CustomerController - customerController:updateCustomer - update customer, CustomerRequestDTO(id=null, firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 13:39:21.928 [main] INFO  c.c.t.o.c.CustomerController - customerController:getCustomer - get customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:39:21.934 [main] INFO  c.c.t.o.c.CustomerController - customerController:createCustomer - request  CustomerRequestDTO(id=null, firstName=John, lastName=Doe, email=john.doe@example.com, age=30) 
+2025-04-29 13:39:21.941 [main] INFO  c.c.t.o.c.CustomerController - customerController:verifyCustomer - verify customer- 67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:39:21.951 [main] INFO  c.c.t.o.c.CustomerController - customerController:activateCustomer - activate customer-67ddf68a08ed9b12f30bcf9a 
+2025-04-29 13:39:21.961 [main] INFO  c.c.t.o.c.CustomerController - customerController:getAllCustomers - retrieving all customer 

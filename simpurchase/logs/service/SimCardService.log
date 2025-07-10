@@ -1,0 +1,4 @@
+2025-05-08 16:34:21.397 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-05-08 16:34:21.517 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=1234567890, customerId=cust123, planId=plan123, payment=PaymentInfoDTO(accountNo=acc123, cardType=Visa)) 
+2025-05-08 16:34:21.533 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-05-08 16:34:21.545 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 

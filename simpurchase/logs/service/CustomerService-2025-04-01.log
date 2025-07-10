@@ -1,0 +1,15 @@
+2025-03-30 12:25:07.155 [main] INFO  c.c.t.c.service.CustomerService - customerService:verifyCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.170 [main] INFO  c.c.t.c.service.CustomerService - customerService:verifyCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.218 [main] INFO  c.c.t.c.service.CustomerService - customerService:registerCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.220 [main] INFO  c.c.t.c.service.CustomerService - customerService:registerCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.231 [main] INFO  c.c.t.c.service.CustomerService - customerService:updateCustomer - update customer CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23) 
+2025-03-30 12:25:07.253 [main] INFO  c.c.t.c.service.CustomerService - customerService:updateCustomer - customer updated 
+2025-03-30 12:25:07.272 [main] INFO  c.c.t.c.service.CustomerService - customerService:activateCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.274 [main] INFO  c.c.t.c.service.CustomerService - customerService:activateCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.284 [main] INFO  c.c.t.c.service.CustomerService - customerService:deleteCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.301 [main] INFO  c.c.t.c.service.CustomerService - customerService:deleteCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-03-30 12:25:07.302 [main] INFO  c.c.t.c.service.CustomerService - Customer deleted, Customer(id=67ddf68a08ed9b12f30bcf9a, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23, registered=false, verified=false, activated=false) 
+2025-03-30 12:25:07.321 [main] INFO  c.c.t.c.service.CustomerService - Customer info, Customer(id=67ddf68a08ed9b12f30bcf9a, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23, registered=false, verified=false, activated=false) 
+2025-03-30 12:25:07.329 [main] INFO  c.c.t.c.service.CustomerService - customerService:getCustomers - get all customers 
+2025-03-30 12:25:07.337 [main] INFO  c.c.t.c.service.CustomerService - customerService:createCustomer - request  CustomerRequestDTO(firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23) 
+2025-03-30 12:25:07.338 [main] INFO  c.c.t.c.service.CustomerService - customerService:createCustomer - customer created 

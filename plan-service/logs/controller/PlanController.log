@@ -1,0 +1,3 @@
+2025-05-08 16:15:37.425 [main] INFO  c.c.t.o.controller.PlanController - planController:getPlan - get plan-2 
+2025-05-08 16:15:37.570 [main] INFO  c.c.t.o.controller.PlanController - planController:createPlan - request  PlanDTO(id=null, planName=Basic Plan, dataPrice=10.0, internetPrice=5.0, planType=DATA, planPeriod=MONTHLY, recurring=true) 
+2025-05-08 16:15:37.621 [main] INFO  c.c.t.o.controller.PlanController - planController:getPlan - get plan-67d9eaea02dcae70b2f65b91 

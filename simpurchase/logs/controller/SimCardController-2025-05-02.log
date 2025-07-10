@@ -1,0 +1,72 @@
+2025-04-29 11:58:30.837 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 11:58:30.913 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 11:58:30.940 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 11:58:30.946 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 11:58:30.955 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 11:58:30.960 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 11:58:30.965 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 11:58:30.971 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 11:58:30.977 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:32:17.246 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:32:17.374 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:32:17.406 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:32:17.420 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:32:17.429 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:32:17.437 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 12:32:17.446 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:32:17.455 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:32:17.465 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:34:40.417 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:34:40.512 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:34:40.550 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:34:40.563 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:34:40.572 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:34:40.579 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 12:34:40.587 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:34:40.593 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:34:40.600 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:44:08.065 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:44:08.173 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:44:08.207 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:44:08.214 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:44:08.221 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:44:08.228 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 12:44:08.237 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:44:08.245 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:44:08.254 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:49:33.430 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:49:33.531 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:49:33.564 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 12:49:33.574 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:49:33.582 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:49:33.591 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 12:49:33.599 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 12:49:33.607 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 12:49:33.615 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 13:11:28.972 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 13:11:29.091 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 13:11:29.133 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 13:11:29.143 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 13:11:29.151 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 13:11:29.159 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 13:11:29.171 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 13:11:29.178 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 13:11:29.186 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 13:24:13.149 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 13:24:13.261 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 13:24:13.305 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 13:24:13.315 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 13:24:13.326 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 13:24:13.334 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 13:24:13.344 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 13:24:13.352 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 13:24:13.360 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 14:09:29.543 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 14:09:29.665 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 14:09:29.704 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-04-29 14:09:29.715 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 14:09:29.725 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 14:09:29.735 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: {} 
+2025-04-29 14:09:29.744 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 
+2025-04-29 14:09:29.753 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-04-29 14:09:29.762 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 

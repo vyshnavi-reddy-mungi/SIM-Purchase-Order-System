@@ -1,0 +1,30 @@
+2025-05-08 10:03:09.147 [main] INFO  c.c.t.o.service.CustomerService - customerService:verifyCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.155 [main] INFO  c.c.t.o.service.CustomerService - customerService:verifyCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.166 [main] INFO  c.c.t.o.service.CustomerService - customerService:registerCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.168 [main] INFO  c.c.t.o.service.CustomerService - customerService:registerCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.181 [main] INFO  c.c.t.o.service.CustomerService - customerService:updateCustomer - update customer CustomerRequestDTO(id=null, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23) 
+2025-05-08 10:03:09.182 [main] INFO  c.c.t.o.service.CustomerService - customerService:updateCustomer - customer updated 
+2025-05-08 10:03:09.200 [main] INFO  c.c.t.o.service.CustomerService - customerService:activateCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.200 [main] INFO  c.c.t.o.service.CustomerService - customerService:activateCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.209 [main] INFO  c.c.t.o.service.CustomerService - customerService:deleteCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.218 [main] INFO  c.c.t.o.service.CustomerService - customerService:deleteCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.220 [main] INFO  c.c.t.o.service.CustomerService - Customer deleted, Customer(id=67ddf68a08ed9b12f30bcf9a, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23, registered=false, verified=false, activated=false) 
+2025-05-08 10:03:09.234 [main] INFO  c.c.t.o.service.CustomerService - Customer info, Customer(id=67ddf68a08ed9b12f30bcf9a, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23, registered=false, verified=false, activated=false) 
+2025-05-08 10:03:09.246 [main] INFO  c.c.t.o.service.CustomerService - customerService:getCustomers - get all customers 
+2025-05-08 10:03:09.253 [main] INFO  c.c.t.o.service.CustomerService - customerService:createCustomer - request  CustomerRequestDTO(id=null, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23) 
+2025-05-08 10:03:09.262 [main] INFO  c.c.t.o.service.CustomerService - customerService:createCustomer - customer created 
+2025-05-08 10:03:09.280 [main] INFO  c.c.t.o.service.CustomerService - customerService:verifyCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.281 [main] INFO  c.c.t.o.service.CustomerService - customerService:verifyCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.287 [main] INFO  c.c.t.o.service.CustomerService - customerService:registerCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.287 [main] INFO  c.c.t.o.service.CustomerService - customerService:registerCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.294 [main] INFO  c.c.t.o.service.CustomerService - customerService:updateCustomer - update customer CustomerRequestDTO(id=null, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23) 
+2025-05-08 10:03:09.295 [main] INFO  c.c.t.o.service.CustomerService - customerService:updateCustomer - customer updated 
+2025-05-08 10:03:09.303 [main] INFO  c.c.t.o.service.CustomerService - customerService:activateCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.304 [main] INFO  c.c.t.o.service.CustomerService - customerService:activateCustomer saved - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.311 [main] INFO  c.c.t.o.service.CustomerService - customerService:deleteCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.317 [main] INFO  c.c.t.o.service.CustomerService - customerService:deleteCustomer - 67ddf68a08ed9b12f30bcf9a 
+2025-05-08 10:03:09.319 [main] INFO  c.c.t.o.service.CustomerService - Customer deleted, Customer(id=67ddf68a08ed9b12f30bcf9a, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23, registered=false, verified=false, activated=false) 
+2025-05-08 10:03:09.323 [main] INFO  c.c.t.o.service.CustomerService - Customer info, Customer(id=67ddf68a08ed9b12f30bcf9a, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23, registered=false, verified=false, activated=false) 
+2025-05-08 10:03:09.329 [main] INFO  c.c.t.o.service.CustomerService - customerService:getCustomers - get all customers 
+2025-05-08 10:03:09.337 [main] INFO  c.c.t.o.service.CustomerService - customerService:createCustomer - request  CustomerRequestDTO(id=null, firstName=John, lastName=Doe, email=john.doe@gmail.com, age=23) 
+2025-05-08 10:03:09.337 [main] INFO  c.c.t.o.service.CustomerService - customerService:createCustomer - customer created 

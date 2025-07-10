@@ -1,0 +1,32 @@
+2025-04-29 11:58:31.397 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 11:58:31.412 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 11:58:31.416 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 11:58:31.421 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 
+2025-04-29 12:32:18.118 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 12:32:18.154 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:32:18.168 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 12:32:18.191 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 
+2025-04-29 12:34:41.195 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 12:34:41.208 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:34:41.214 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 12:34:41.223 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 
+2025-04-29 12:44:08.834 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 12:44:08.850 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:44:08.859 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 12:44:08.867 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 
+2025-04-29 12:49:34.168 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 12:49:34.180 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 12:49:34.189 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 12:49:34.201 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 
+2025-04-29 13:11:29.756 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 13:11:29.769 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 13:11:29.776 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 13:11:29.783 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 
+2025-04-29 13:24:13.961 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 13:24:13.978 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 13:24:13.990 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 13:24:14.011 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 
+2025-04-29 14:09:30.350 [main] INFO  c.c.t.o.service.SimCardService - simCardService:cancelSimCard - 1234567890 
+2025-04-29 14:09:30.381 [main] INFO  c.c.t.o.service.SimCardService - simCardService:purchaseSimCard - request  SimCardRequestDTO(simNumber=null, customerId=null, planId=null, payment=null) 
+2025-04-29 14:09:30.390 [main] INFO  c.c.t.o.service.SimCardService - simCardService:suspendSimCard - 1234567890 
+2025-04-29 14:09:30.399 [main] INFO  c.c.t.o.service.SimCardService - simCardService:activateSimCard - 1234567890 

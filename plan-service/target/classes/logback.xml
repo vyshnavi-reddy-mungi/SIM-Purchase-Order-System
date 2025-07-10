@@ -1,0 +1,89 @@
+<configuration>
+
+    <appender name = "myConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{yy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="planControllerAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/controller/PlanController.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/controller/PlanController-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="planServiceAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/service/PlanService.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/service/PlanService-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="simCardConsumerAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/kafka/SimCardConsumer.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/kafka/SimCardConsumer-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="applicationExceptionalHandler" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/advice/ApplicationExceptionalHandler.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/advice/ApplicationExceptionalHandler-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="kafkaConsumerErrorHandler" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/advice/KafkaConsumerErrorHandler.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/advice/KafkaConsumerErrorHandler-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.capgemini.telecom.ordersystem.controller" level="DEBUG" additivity="false">
+        <appender-ref ref="planControllerAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.service" level="DEBUG" additivity="false">
+        <appender-ref ref="planServiceAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.kafka" level="DEBUG" additivity="false">
+        <appender-ref ref="simCardConsumerAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.advice" level="DEBUG" additivity="false">
+        <appender-ref ref="applicationExceptionalHandler" />
+        <appender-ref ref="kafkaConsumerErrorHandler" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="myConsoleAppender" />
+    </root>
+
+
+</configuration>

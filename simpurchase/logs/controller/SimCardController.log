@@ -1,0 +1,6 @@
+2025-05-08 16:34:05.127 [main] ERROR c.c.t.o.controller.SimCardController - simCardController:noAvailableSimCards - Circuit breaker triggered. No available sim cards. Request: No available sim cards 
+2025-05-08 16:34:05.292 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:activateSimCard - activate sim card-1234567890 
+2025-05-08 16:34:05.327 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:purchaseSimCard - request  SimCardRequestDTO(simNumber=1234567890, customerId=cust123, planId=plan123, payment=PaymentInfoDTO(accountNo=acc123, cardType=Visa)) 
+2025-05-08 16:34:05.341 [main] INFO  c.c.t.o.controller.SimCardController - retry method called 1 times atThu May 08 16:34:05 CDT 2025 
+2025-05-08 16:34:05.350 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:cancelSimCard - cancel sim card-1234567890 
+2025-05-08 16:34:05.359 [main] INFO  c.c.t.o.controller.SimCardController - simCardController:suspendSimCard - suspend sim card-1234567890 

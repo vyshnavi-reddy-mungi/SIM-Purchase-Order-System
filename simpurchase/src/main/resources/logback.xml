@@ -1,0 +1,76 @@
+<configuration>
+
+    <appender name = "myConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{yy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="simCardControllerAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/controller/SimCardController.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/controller/SimCardController-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="simCardServiceAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/service/SimCardService.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/service/SimCardService-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="simCardProducerAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/kafka/SimCardProducer.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/kafka/SimCardProducer-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="applicationExceptionalHandler" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/advice/ApplicationExceptionalHandler.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/advice/ApplicationExceptionalHandler-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.capgemini.telecom.ordersystem.controller" level="DEBUG" additivity="false">
+        <appender-ref ref="simCardControllerAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.service" level="DEBUG" additivity="false">
+        <appender-ref ref="simCardServiceAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.advice" level="DEBUG" additivity="false">
+        <appender-ref ref="applicationExceptionalHandler" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <logger name="com.capgemini.telecom.ordersystem.kafka" level="DEBUG" additivity="false">
+        <appender-ref ref="simCardProducerAppender" />
+        <appender-ref ref="myConsoleAppender" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="myConsoleAppender" />
+    </root>
+
+</configuration>
